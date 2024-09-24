@@ -6,6 +6,8 @@ config.automatically_reload_config = true
 
 config.check_for_updates = false
 
+config.front_end = "Software" -- "OpenGL"
+
 config.enable_tab_bar = false
 
 config.use_fancy_tab_bar = false
@@ -23,12 +25,12 @@ config.window_close_confirmation = "NeverPrompt"
 config.window_decorations = "RESIZE"
 
 config.window_background_opacity = 1
--- config.macos_window_background_blur = 0
+config.macos_window_background_blur = 0
 
 config.window_padding = {
-	left = 30,
-	right = 30,
-	top = 35,
+	left = 10,
+	right = 10,
+	top = 15,
 	bottom = 0,
 }
 

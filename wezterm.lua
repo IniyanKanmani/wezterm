@@ -2,11 +2,13 @@ local wezterm = require("wezterm")
 
 local config = wezterm.config_builder()
 
+config.term = "xterm-256color"
+
 config.automatically_reload_config = true
 
 config.check_for_updates = false
 
-config.front_end = "Software" -- "OpenGL"
+config.front_end = "OpenGL" -- "Software"
 
 config.enable_tab_bar = false
 
